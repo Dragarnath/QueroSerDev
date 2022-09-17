@@ -1,0 +1,27 @@
+{
+  "name": "projetao",
+  "version": "1.0.0",
+  "main": "cadastro.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dragarnath/QueroSerDev.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dragarnath/QueroSerDev/issues"
+  },
+  "homepage": "https://github.com/Dragarnath/QueroSerDev#readme",
+  "devDependencies": {
+    "@types/node": "^18.7.18",
+    "prisma": "^4.3.1",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.3"
+  },
+  "description": ""
+}
