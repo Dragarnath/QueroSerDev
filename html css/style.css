@@ -1,6 +1,30 @@
 * {
     box-sizing: border-box;
 }
+form.example input[type=text] {
+    padding: 5px;
+    font-size: 12px;
+    border: 1px solid grey;
+    float: left;
+    width: 27%;
+    background: #f1f1f1;
+  }
+  form.example button {
+    float: right;
+    width: 3%;
+    padding: 1px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none; /* Prevent double borders */
+    cursor: pointer;
+  }
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 body {
     background-color:#130f0d;
     font-family:'Lato',Helvetica,Arial;
@@ -54,8 +78,8 @@ float: left;
 
 }
 .center ul li :first-child{
-    background-color: #ffea00;
-    color:#414146 !important;
+    background-color: #399ade;
+    color:#000 !important;
     border-right: 1px solid 414146;
 }
 .center ul li :hover{
