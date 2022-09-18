@@ -63,3 +63,9 @@ let pokemonJson = [
       'Muito dócil. Se atacado, ele geralmente levanta areia para se proteger, em vez de revidar.'
   }
 ]
+
+const pesquisa = pokemonJson.filter(function (pokemonJson) {
+  return pokemonJson.id
+
+  console.log(pesquisa)
+})
